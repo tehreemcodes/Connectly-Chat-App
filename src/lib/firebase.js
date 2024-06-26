@@ -5,11 +5,11 @@ import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_API_KEY,
-  authDomain: "connectly-24b83.firebaseapp.com",
-  projectId: "connectly-24b83",
-  storageBucket: "connectly-24b83.appspot.com",
-  messagingSenderId: "966594826699",
-  appId: "1:966594826699:web:70bd7923c5de0f6fd0264e"
+  authDomain: "YOUR-DOMAIN",
+  projectId: "YOUR-DOMAIN",
+  storageBucket: "YOUR-DOMAIN",
+  messagingSenderId: "YOUR-DOMAIN",
+  appId: "YOUR-DOMAIN"
 };
 
 const app = initializeApp(firebaseConfig);
